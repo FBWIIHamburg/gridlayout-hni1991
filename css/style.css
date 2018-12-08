@@ -1,0 +1,345 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+/* conter */
+.conter{
+    padding: 0;
+    height: 100vh;
+}
+/* END Conter  */
+/* //////////////////// */
+/* navigation */
+.nav{
+    padding: 0;
+    background: #2d3436;
+    margin-top: 0;
+    overflow: hidden;
+    display: flex;
+    height: 40px;
+}
+.nav2{display:none;
+visibility: hidden;}
+.nav>p{
+    display: block;
+    width: 150px;
+    margin-left: 10%;
+    padding: 0;
+    margin-top: 6px;
+    color: white;
+    font-size: 18px;
+}
+.nav>ul{
+    background: #2d3436;
+    margin-top: 0;
+    display: flex;
+    float: left;
+    height: 45px;
+    margin-left: 53%;
+}
+.nav>ul>li>a{
+    font-size: 14px;
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    color: rgb(163, 161, 161);
+    text-align: center;
+}
+.nav>ul>li{
+    top: 0;
+    float: left;
+    height: 20px;
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin-left: 10px;
+}
+/* END of navigation */
+/* ///////////////////// */
+/* firt text bar */
+.ftb{
+    border: none;
+ margin-left: 10%;
+ margin-top: 20px;
+ height: 35vh;
+ background: #e5e9eb;
+ border-radius: 3px;
+
+}
+.ftb>h1{
+    font-size: 36px;
+}
+.bot{
+    cursor: pointer;
+    padding-top: 5px;
+    width: 13%;
+   height: 30px;
+   background:  #0984e3;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   text-align: center;
+   margin-left: 15px;
+}
+/* END of navigation */
+/* /////////////////////// */
+/* Holder */
+.holder{
+    padding: 0;
+   height: 50vh;
+   margin-top: 30px; 
+   margin-left: 10%;
+
+}
+.hold1{
+    float: left;
+    width: 22.5%;
+    overflow: hidden;
+    padding: 0;
+    margin-left: 0;
+    height: 50vh;
+    background: white;
+    border-radius: 3px;
+    border: 1px solid #4344443d;
+
+}
+.pic{
+    height: 19vh;
+    background: #b2bec3;
+
+}
+.pic>p{
+    color: #3738383d;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 45px;
+
+}
+.txt{
+    padding: 0;
+    height: 24vh;
+    background: white;
+    text-align: center;
+}
+.txt>p{
+    font-size: 13px;
+}
+.booton{
+    padding: 0%;
+   height: 7vh;
+   text-align: center;
+   background: #dfe6e9; 
+}
+.bot1{
+    cursor: pointer;
+    padding-top: 5px;
+    width: 70%;
+   height: 30px;
+   background:  #0984e3;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   text-align: center;
+   margin-left: 15%;
+   margin-top: 5%;
+
+}
+/* it's for card 2,3,4 just for margin */
+.hold2{
+
+    float: left;
+    width: 22.5%;
+    overflow: hidden;
+    padding: 10xp;
+    margin-left: 3.3%;
+    height: 50vh;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #4344443d;
+
+}
+
+/* END of full screen */
+/* ////////////////////// */
+/* Tablet Size (990px) */
+@media only screen and (max-width: 990px){
+  
+    .bot{
+       min-width: 130px;
+    }
+    .nav>p{
+        display: none;
+        
+    }
+    .nav>ul{
+        background: #2d3436;
+        margin-top: 0;
+        display: flex;
+        float: left;
+        height: 45px;
+        margin-left: 30%;
+    }
+   
+
+    .holder{
+        float: left;
+        padding: 0;
+       height: auto;
+       margin-top: 30px; 
+       margin-left: 10%;
+    
+    }
+    .hold1{
+        float: left;
+        width: 45%;
+        overflow: hidden;
+        padding: 0;
+        margin-left: 0;
+        height: 50vh;
+        background: white;
+        border-radius: 3px;
+        border: 1px solid #4344443d;
+        margin-bottom: 5%;
+        margin-left: 3.3%;
+
+    
+    }
+
+    .hold2{
+
+        float: left;
+        width: 45%;
+        overflow: hidden;
+        padding: 10xp;
+        margin-left: 3.3%;
+        height: 50vh;
+        background: white;
+        border-radius: 5px;
+        border: 1px solid #4344443d;
+        margin-bottom: 5%;
+
+    }
+    
+}
+
+/* ////////////////// */
+/* Smart phone size(600px) */
+
+@media only screen and (max-width: 600px){
+  .nav{display:none;
+    visibility: hidden;}
+
+    .nav2{
+        display:block;
+visibility: visible;
+    }
+   
+    .nav2>ul{
+        width: 100%;
+        background: #2d3436;
+        margin-top: 0;
+        height: auto;
+        margin-left: 0;
+    }
+    .nav2>ul>li>a{
+        width: 100%;
+        font-size: 14px;
+        margin-top: 10px;
+        display: block;
+        text-decoration: none;
+        color: rgb(163, 161, 161);
+        text-align: center;
+    }
+    .nav2>ul>li{
+        width: 100%;
+        background: #2d3436;
+        top: 0;
+        height: auto;
+        padding: 0;
+        display: block;
+        list-style: none;
+    }
+    .ftb{
+        width: 100%;
+        border: none;
+     height: 35vh;
+     background: #e5e9eb;
+     border-radius: 3px;
+    overflow: hidden;
+    }
+  
+ 
+    .bot{
+       min-width: 130px;
+    }
+    .nav>p{
+        display: none;
+        
+    }
+    .nav>ul{
+        background: #2d3436;
+        margin-top: 0;
+        display: flex;
+        float: left;
+        height: 45px;
+        margin-left: 30%;
+    }
+   
+
+    .holder{
+        width: 100%;
+        padding: 0;
+       height: auto;
+       margin-top: 30px; 
+    
+    }
+    .hold1{
+        float: left;
+        width: 100%;
+        overflow: hidden;
+        padding: 0;
+        margin-left: 0;
+        height: 50vh;
+        background: white;
+        border-radius: 3px;
+        border: 1px solid #4344443d;
+        margin-bottom: 2%;
+
+    
+    }
+
+    .hold2{
+
+        float: left;
+        width: 100%;
+        overflow: hidden;
+        padding: 10xp;
+        height: 50vh;
+        background: white;
+        border-radius: 5px;
+        border: 1px solid #4344443d;
+        margin-bottom: 2%;
+        margin-left: 0;
+
+
+    }
+    .bot1{
+        cursor: pointer;
+        padding-top: 5px;
+        width: 70%;
+       height: 30px;
+       background:  #0984e3;
+       color: white;
+       border: none;
+       border-radius: 5px;
+       text-align: center;
+       margin-left: 15%;
+       margin-top: 2%;
+    
+    }
+    .conter{
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+    }
+}
