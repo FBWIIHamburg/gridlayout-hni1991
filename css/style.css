@@ -5,7 +5,7 @@ body{
 /* conter */
 .conter{
     padding: 0;
-    height: 100vh;
+    height: 120vh;
 }
 /* END Conter  */
 /* //////////////////// */
@@ -21,9 +21,10 @@ body{
 .nav2{display:none;
 visibility: hidden;}
 .nav>p{
-    display: block;
+    position: relative;
+    display: flex;
     width: 150px;
-    margin-left: 10%;
+    margin-left: 7%;
     padding: 0;
     margin-top: 6px;
     color: white;
@@ -36,6 +37,7 @@ visibility: hidden;}
     float: left;
     height: 45px;
     margin-left: 53%;
+    margin-right: 5%;
 }
 .nav>ul>li>a{
     font-size: 14px;
@@ -81,12 +83,12 @@ visibility: hidden;}
    text-align: center;
    margin-left: 15px;
 }
-/* END of navigation */
+/* END of Text bar */
 /* /////////////////////// */
 /* Holder */
 .holder{
     padding: 0;
-   height: 50vh;
+   height: 60vh;
    margin-top: 30px; 
    margin-left: 10%;
 
@@ -97,7 +99,7 @@ visibility: hidden;}
     overflow: hidden;
     padding: 0;
     margin-left: 0;
-    height: 50vh;
+    height: 52vh;
     background: white;
     border-radius: 3px;
     border: 1px solid #4344443d;
@@ -126,7 +128,7 @@ visibility: hidden;}
 }
 .booton{
     padding: 0%;
-   height: 7vh;
+   height: 9vh;
    text-align: center;
    background: #dfe6e9; 
 }
@@ -152,7 +154,7 @@ visibility: hidden;}
     overflow: hidden;
     padding: 10xp;
     margin-left: 3.3%;
-    height: 50vh;
+    height: 52vh;
     background: white;
     border-radius: 5px;
     border: 1px solid #4344443d;
@@ -179,7 +181,15 @@ visibility: hidden;}
         height: 45px;
         margin-left: 30%;
     }
-   
+    .ftb{
+        border: none;
+     margin-left: 10%;
+     margin-top: 20px;
+     height: 45vh;
+     background: #e5e9eb;
+     border-radius: 3px;
+    
+    }
 
     .holder{
         float: left;
@@ -195,7 +205,7 @@ visibility: hidden;}
         overflow: hidden;
         padding: 0;
         margin-left: 0;
-        height: 50vh;
+        height: 52vh;
         background: white;
         border-radius: 3px;
         border: 1px solid #4344443d;
@@ -212,7 +222,7 @@ visibility: hidden;}
         overflow: hidden;
         padding: 10xp;
         margin-left: 3.3%;
-        height: 50vh;
+        height: 52vh;
         background: white;
         border-radius: 5px;
         border: 1px solid #4344443d;
@@ -262,7 +272,7 @@ visibility: visible;
     .ftb{
         width: 100%;
         border: none;
-     height: 35vh;
+     height: 50vh;
      background: #e5e9eb;
      border-radius: 3px;
     overflow: hidden;
@@ -299,7 +309,7 @@ visibility: visible;
         overflow: hidden;
         padding: 0;
         margin-left: 0;
-        height: 50vh;
+        height: 52vh;
         background: white;
         border-radius: 3px;
         border: 1px solid #4344443d;
@@ -314,7 +324,7 @@ visibility: visible;
         width: 100%;
         overflow: hidden;
         padding: 10xp;
-        height: 50vh;
+        height: 52vh;
         background: white;
         border-radius: 5px;
         border: 1px solid #4344443d;
