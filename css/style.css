@@ -240,7 +240,7 @@ visibility: hidden;}
     visibility: hidden;}
 
     .nav2{
-        display:block;
+        display:flex;
 visibility: visible;
     }
    
@@ -276,6 +276,7 @@ visibility: visible;
      background: #e5e9eb;
      border-radius: 3px;
     overflow: hidden;
+    margin-left: 0;
     }
   
  
@@ -301,6 +302,8 @@ visibility: visible;
         padding: 0;
        height: auto;
        margin-top: 30px; 
+       margin-left: 0;
+
     
     }
     .hold1{
